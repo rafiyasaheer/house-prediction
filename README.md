@@ -5,39 +5,31 @@ This repository contains Python code for predicting house prices based on featur
 
 ## Requirements
 Make sure you have the following libraries installed:
-- pandas
-- matplotlib
-- seaborn
-- numpy
-- scikit-learn
+- Python
+
+pandas
+
+scikit-learn
+
+matplotlib
+
+streamlit
 
 You can install these libraries using pip:
 ```
 pip install pandas matplotlib seaborn numpy scikit-learn
 ```
 
-## Usage
-1. Clone the repository to your local machine:
-```
-git clone https://github.com/your_username/housing-price-prediction.git
-```
+ ## Features
+Interactive dataset viewer.
 
-2. Navigate to the repository directory:
-```
-cd housing-price-prediction
-```
+Model performance metrics.
 
-3. Download the dataset (`train.csv`) and place it in the repository directory.
-4. Run the Python script:
-```
-python housing_price_prediction.py
-```
+Visualization: Actual vs Predicted plot.
 
-The script will perform the following steps:
-- Load the dataset (`train.csv`) into a pandas DataFrame.
-- Clean the data by checking for and handling null values.
-- Perform outlier analysis and treatment for the 'Price' and 'Area' variables.
-- Split the data into training and testing sets.
-- Train a linear regression model on the training data.
-- Evaluate the model's performance using the \( R^2 \) score.
-- Visualize the relationship between real and predicted house prices.
+Custom input for house price prediction.
+
+Dollar to Rupee conversion.
+
+
+
